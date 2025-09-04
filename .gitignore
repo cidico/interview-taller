@@ -1,0 +1,12 @@
+# .NET ignore
+bin/
+obj/
+*.csproj.user
+*.suo
+*.sln.docstates
+.vs/
+# Docker
+*.dockerignore
+
+# Logs e temp
+*.log

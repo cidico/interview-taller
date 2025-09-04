@@ -1,0 +1,6 @@
+@Interview.BackendApi_HostAddress = http://localhost:9090
+
+GET {{Interview.BackendApi_HostAddress}}/api/sample
+Accept: application/json
+
+###

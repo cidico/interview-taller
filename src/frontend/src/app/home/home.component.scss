@@ -1,0 +1,42 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  mat-form-field {
+    flex: 1;
+  }
+
+  button {
+    height: 56px;
+  }
+}
+
+.result {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.result.error {
+  color: #f44336;
+}
+
+.success-alert {
+  margin-top: 30px;
+  background-color: #d4edda; 
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
